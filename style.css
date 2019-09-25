@@ -3,7 +3,8 @@
     margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poiret One', cursive;
 }
 body {
-    background-image: url('/Users/carolinaboschetti/Desktop/Projects/BMI-calculator/DD-Watercolor-Vector-Background-78645-Preview.jpg')
+    background-image: url('/Users/carolinaboschetti/Desktop/Projects/BMI-calculator/Artboard 1.png');
+    background-size: 100%;
 }
 .main{
     background-color: #ffffff;
@@ -16,6 +17,7 @@ body {
     color: #BC2230;
     text-align: center;
     padding-top: 60px;
+    font-size: 40px;
 }
 .calculator{
     display: block;
