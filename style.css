@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poiret One', cursive;
+}
+body {
+    background-image: url('/Users/carolinaboschetti/Desktop/Projects/BMI-calculator/DD-Watercolor-Vector-Background-78645-Preview.jpg')
+}
+.main{
+    background-color: #ffffff;
+    padding: 20px 50px 30px;
+    width: 70%;
+    height: 100%;
+    margin: 30px auto;
+}
+.title{
+    color: #BC2230;
+    text-align: center;
+    padding-top: 60px;
+}
+.calculator{
+    display: block;
+    text-align: center;
+    padding-top: 100px;
+
+}
+.submit{
+    color: #ffffff;
+    margin: 0 auto;
+    display: block;
+    font-size: 18px;
+    padding: 0 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    background-color: #D6C6E1 ;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .copyright {
+    text-align: center;
+    display: block;
+    padding-top: 180px;
+  }
