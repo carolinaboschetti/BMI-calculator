@@ -3,8 +3,9 @@
     margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poiret One', cursive;
 }
 body {
-    background-image: url('/Users/carolinaboschetti/Desktop/Projects/BMI-calculator/Artboard 1.png');
-    background-size: 100%;
+    background-image: url('Artboard 1.png');
+    background-repeat: round;
+
 }
 .main{
     background-color: #ffffff;
