@@ -11,15 +11,17 @@
     <main class="main">
             <h1 class="title">Welcome to your BMI Calculator</h1>
     <div class="calculator">
-            <P>Enter your weight</P>
-            <input  id="weight" type="text" placeholder="Your weight in kilograms" />
+            <p class="instructions">Enter your weight in kg</p>
+            <input  id="weight" class="field" type="text" placeholder="e.g.: 62" />
             <br />
             <br />
-            <p>Enter your height</p>
-            <input id="height" type="text" placeholder="Your height in meters" />
+            <p class="instructions">Enter your height in m</p>
+            <input id="height" class="field" type="text" placeholder="e.g.: 1.74" />
             <br />
             <br />
             <input class="submit" type="button"  value="Submit" onclick="bmi()" />
+            <br />
+            <br />
             <p id="result">Here will be your result</p>
         </form>
     </div>

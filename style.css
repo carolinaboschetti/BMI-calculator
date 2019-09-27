@@ -24,7 +24,14 @@ body {
     display: block;
     text-align: center;
     padding-top: 100px;
-
+}
+.field {
+    width: 180px;
+    height: 35px;
+}
+.instructions{
+    font-size: 18px;
+    padding-bottom: 10px;
 }
 .submit{
     color: #ffffff;
@@ -38,7 +45,11 @@ body {
     border-radius: 5px;
     margin-bottom: 20px;
   }
-  
+  .submit:hover {
+    color: #D6C6E1;
+    background-color: #ffffff;
+    font-weight: bold;
+}
   .copyright {
     text-align: center;
     display: block;
